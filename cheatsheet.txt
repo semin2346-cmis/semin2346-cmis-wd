@@ -1,0 +1,7 @@
+cd - Change directory.
+ls - List all folders.
+gedit - Modify existing file or create new file.
+git clone - Clone the file via putting file address after the command.
+git add - Adds it to hard drive (quasi-save).
+git commit - Creates a checkpoint for the git add.
+git push - Sends everything to github.com.
