@@ -1,0 +1,12 @@
+Open terminal on your computer (black square (with >- on it) on the taskbar).
+Clone your repository by typing the information inside the parenthesis into terminal with the correct personal information (git clone --config="http.proxy=http://your-internet-access-name:your-internet-access-password@192.168.2.1:8080" https://github.com/your-github-username/your-repository-name.git).
+Press the Enter key.
+Type ls in terminal and press the Enter key.
+You will now see a list of folders in blue. Anything in white are text folders. What is important here is YOUR own repository, presumably named yourschoolID-cmis-wd.
+Type cd your-repository-name in Terminal and press Enter (it will resemble: semin2346-cmis-wd/). If you type in the first few letters of your repository name and hit the Tab key on the keyboard, the name will automatically appear, reducing the peril of misspelling things. Remember everything is case sensitive.
+Now, type gedit file-name & into Terminal and press Enter (it will resemble: gedit git_process.txt).
+Type in your desired information in the window that pops up. It will be named your-file-name (~/your-repository-name) - gedit.
+Once you have typed to your heart's content, click the Save button and close the gedit window.
+Type git add your-file-name into Terminal, and press the Enter key. Make sure gedit is turned off.
+Type git commit -m "explanation-about-your-file" into Terminal and press the Enter key. The -m is very important. It does not matter how detailed your explanation is, but make sure to put it in quotation marks.
+Type git push into Terminal and press the enter key.
