@@ -5,3 +5,10 @@ git clone - Clone the file via putting file address after the command.
 git add - Adds it to hard drive (quasi-save).
 git commit - Creates a checkpoint for the git add.
 git push - Sends everything to github.com.
+put <file name> - Uploading everything.
+!ls * - Lists all the files that I can upload.
+put * - Uploads everything all at once.
+put *part of file name>* - Uploads everything and finishes file name for you.
+rm <file name> - Removes file.
+sftp semin2346@cmis-hsteacher - Changes workspace.
+
