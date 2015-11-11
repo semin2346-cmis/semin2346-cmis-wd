@@ -1,8 +1,38 @@
+Title{
+	font-family:Impact, Charcoal, sans-serif;
+	color:#333300;
+	font-size: 96px;
+	background-color:#3399ff;
+	border:solid 14px #006666;
+}
 h1{
-	font-family:papyrus;
-	color:#ffffff;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	color:#9966ff;
 	font-size:25px;
+	background-color:#006699;
+	border:dotted solid double dashed 14px #ff6666;
+}
+h2{
+	font-family:"Times New Roman", Times, serif;
+	color:#993300;
+	font-size:34px;
+	background-color:#340066;
+	border:dotted solid double 32px #0f3224;
 }
 p{
-	background-color:#000000;
-	border:
+	font-family:"Arial Black", Gadget, sans-serif;
+	background-color:#6b7144;
+	border:solid 54px #828483;
+	color:#ff9900;
+	font-size:42px;
+}
+footer{
+	font-family:"Courier New", Courier, monospace;
+	border:solid 33px #ff00ff;
+	color:#996633;
+	font-size:23px;
+	background-color:#3c2921;
+}
+html{
+	background-image:url(https://a8b9696a91de10cc2c20196ef7b687396774edd5.googledrive.com/host/0B0RTlVpNFM-GfkRsWVdJOXJaZkJIQXV5OXRhcDZEVFBfb0ZMak9TOWJhNnFEZ1ZYZ0Y0blU/cool-phone-wallpapers-picture.jpg);
+}
