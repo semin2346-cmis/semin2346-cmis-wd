@@ -1,14 +1,28 @@
-cd - Change directory.
-ls - List all folders.
-gedit - Modify existing file or create new file.
-git clone - Clone the file via putting file address after the command.
-git add - Adds it to hard drive (quasi-save).
-git commit - Creates a checkpoint for the git add.
-git push - Sends everything to github.com.
-put <file name> - Uploading everything.
-!ls * - Lists all the files that I can upload.
-put * - Uploads everything all at once.
-put *part of file name>* - Uploads everything and finishes file name for you.
-rm <file name> - Removes file.
-sftp semin2346@cmis-hsteacher - Changes workspace.
+Terminal Commands
 
+ls <directory name>:  List contents of a directory
+cd: Go home.
+cd <directory name>:  Change directory
+cd ..: Go up
+cat <file name>: View the contents of a file
+gedit <file name> &: Modify existing file or create new file.
+python -m SimpleHTTPServer - Start the development server
+
+Git Commands
+
+git clone --config="http.proxy=http://semin2346:Min0920min0920@192.168.2.1:8080" https://github.com/semin2346-cmis/semin2346-cmis-wd.git: Clone the file via putting file address after the command.
+git add <file name>: Adds it to hard drive (quasi-save).
+git commit -m "Commit Comment": Creates a checkpoint for the git add.
+git push: Sends everything to github.com.
+
+sftp Commands
+
+sftp semin2346@cmis-hsteacher - Changes workspace.
+ls - Same as terminal.
+cd - Same as terminal.
+Prepend a command with ! to execute it on local.
+put <filename> - Upload a file
+	put * - Uploads everything all at once.
+	put *part of file name>* - Uploads everything and finishes file name for you.
+get <filename> - Download a file.
+rm <file name> - Removes file.
