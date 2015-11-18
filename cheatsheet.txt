@@ -6,7 +6,11 @@ cd <directory name>:  Change directory
 cd ..: Go up
 cat <file name>: View the contents of a file
 gedit <file name> &: Modify existing file or create new file.
-python -m SimpleHTTPServer - Start the development server
+python -m SimpleHTTPServer - Start the development server.
+	localhost:8000 - View your work.
+	localhost:8000/<file name> - Views that file. 
+		http://cmis-hsteacher/~<user's name> - View others' work.
+
 
 Git Commands
 
@@ -15,14 +19,21 @@ git add <file name>: Adds it to hard drive (quasi-save).
 git commit -m "Commit Comment": Creates a checkpoint for the git add.
 git push: Sends everything to github.com.
 
+
 sftp Commands
 
 sftp semin2346@cmis-hsteacher - Changes workspace.
 ls - Same as terminal.
 cd - Same as terminal.
+	cd public_html - Changes directory to Mr. Kieffer's workspace.
 Prepend a command with ! to execute it on local.
 put <filename> - Upload a file
 	put * - Uploads everything all at once.
-	put *part of file name>* - Uploads everything and finishes file name for you.
+	put *<part of file name>* - Uploads everything and finishes file name for you.
 get <filename> - Download a file.
 rm <file name> - Removes file.
+
+
+How to create a folder in a repository
+
+
