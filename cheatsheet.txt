@@ -10,6 +10,8 @@ python -m SimpleHTTPServer - Start the development server.
 	localhost:8000 - View your work.
 	localhost:8000/<file name> - Views that file. 
 		http://cmis-hsteacher/~<user's name> - View others' work.
+mkdir <folder name> - Make a new folder.
+rmdir <folder name> - Remove the new folder.
 
 
 Git Commands
