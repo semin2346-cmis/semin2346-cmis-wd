@@ -6,23 +6,61 @@ header > h1{
 	border-style:solid; 
 	border-width:5px;
 	border-color:#ff0000;
-	padding:50px;
-	margin:10px;
+	padding:50px 40px 60px 20px;
+	margin-top:10px;
+	margin-bottom:50px;
+	margin-right:70px;
+	margin-left:30px;
 	width:1000px;
 	height:50px;
 }
-h1 + h2{
+main h3{
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	color:green;
+	font-size:45px;
+	background-color:red;
+	border-style:solid; 
+	border-width:25px;
+	border-color:yellow;
+	padding:50px 30px 70px 5px;
+	margin-top: 10px;
+	margin-bottom: 80px;
+	margin-right: 70px;
+	margin-left: 30px;
+	width:1000px;
+	height:80px;
+}
+h2 + p{
 	font-family:"Trebuchet MS", Helvetica, sans-serif;
 	color:#ffffff;
 	font-size:40px;
-	background-color:#000033;
+	background-color:purple;
 	border-style:dotted solid double dashed;
 	border-width:5px; 
 	border-color:#ff6600;
-	padding:40px;
-	margin:10px;
+	padding:40px 65px 80px 35px;
+	margin-top: 15px;
+	margin-bottom: 95px;
+	margin-right: 25px;
+	margin-left: 75px;
 	width:1000px;
 	height:15px;
+}
+p ~ ul{
+	font-family:"Courier New", Courier, monospace;
+	color:white;
+	font-size:20px;
+	background-color:black;
+	border-style:solid; 
+	border-width:5px;
+	border-color:green;
+	padding:15px 20px 45px 70px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-right: 150px;
+	margin-left: 80px;
+	width:1000px;
+	height:600px;
 }
 nav{
 	font-family:"Times New Roman", Times, serif;
@@ -32,10 +70,13 @@ nav{
 	border-style:solid; 
 	border-width:5px;
 	border-color:#ffff00;
-	padding:10px;
-	margin:10px;
+	padding:10px 5px 45px 70px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-right: 150px;
+	margin-left: 80px;
 	width:1000px;
-	
+	height:500px;	
 }
 header ~ table{
 	font-family:"Arial Black", Gadget, sans-serif;
@@ -45,8 +86,11 @@ header ~ table{
 	border-style:dotted solid;
 	border-width:5px;
 	border-color:#00cc00;
-	padding:20px;
-	margin:10px;
+	padding:20px 60px 85px 75px 50px;
+	margin-top: 160px;
+	margin-bottom: 160px;
+	margin-right: 95px;
+	margin-left: 80px;
 	width:1000px;
 	height:1000px;
 }
