@@ -126,3 +126,19 @@ tbody + tfoot{
 	width:1000px;
 	height:5px;
 }
+h2 ~ ol{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color:blue;	
+	font-size:25px;
+	background-color:white;
+	border-style:dashed ;
+	border-width:35px;
+	border-color:yellow;
+	padding:60px 20px 50px 50px;
+	margin-top: 10px;
+	margin-bottom: 40px;
+	margin-right: 50px;
+	margin-left: 50px;
+	width:1000px;
+	height:700px;
+}
