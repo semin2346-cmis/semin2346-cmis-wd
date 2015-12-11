@@ -1,15 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Sigmar+One);
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:700,800);
 *{
 	outline:dotted red 1px;
+}
+h1{
+	font-family:Sigmar One;
+	color:black;
+	font-size:50px;
+	background-color:;
+	border-style:; 
+	border-width:;
+	border-color:;
+	padding:;
+	margin-top:;
+	margin-bottom:;
+	margin-right:;
+	margin-left:;
+	width:;
+	height:;
+}
+h1 ~ p{
+	font-family:Alegreya Sans;
+	color:black;
+	font-size:20px;
+	background-color:;
+	border-style:; 
+	border-width:;
+	border-color:;
+	padding:;
+	margin-top:;
+	margin-bottom:;
+	margin-right:;
+	margin-left:;
+	width:;
+	height:;
+}
+li{
+	list-style:none;
+}
+li > ul > li{
+	list-style:disc;
 }
 nav{
 	width:200px;
 	float:left;
 }
+p ~ ul{
+	margin-left:250px;
+}
 main{
 	margin-left:201px;
 }
 img.right{
-	float:right;
+	float:left;
 	clear:right;
 }
 img.left{
