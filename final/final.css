@@ -5,9 +5,9 @@
 }
 h1{
 	font-family:Sigmar One;
-	color:black;
+	color:white;
 	font-size:50px;
-	background-color:;
+	background-image:url("http://original.livestream.com/filestore/logos/ca3807c1-5e38-34ae-0204-218552bbab5f-banner.png");
 	border-style:; 
 	border-width:;
 	border-color:;
@@ -52,8 +52,6 @@ main{
 	margin-left:201px;
 }
 img.right{
-	float:left;
-	clear:right;
 }
 img.left{
 	float:left;
