@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Sigmar+One);
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:700,800);
-*{
+// *{
 	outline:dotted red 1px;
 }
 h1{
@@ -18,6 +18,7 @@ h1{
 	margin-left:;
 	width:;
 	height:;
+	text-align:center;
 }
 h1 ~ p{
 	font-family:Alegreya Sans;
@@ -34,6 +35,7 @@ h1 ~ p{
 	margin-left:;
 	width:;
 	height:;
+	text-align:center;
 }
 li{
 	list-style:none;
@@ -42,14 +44,15 @@ li > ul > li{
 	list-style:disc;
 }
 nav{
-	width:200px;
+	width:250px;
 	float:left;
 }
 p ~ ul{
 	margin-left:250px;
 }
 main{
-	margin-left:201px;
+	margin-left:251px;
+	text-align:center;
 }
 img.right{
 }
